@@ -11,13 +11,12 @@ export default function App() {
     if (f) setFileName(f.name);
   };
   const goList = () => {};
-  const more = () => {};
 
   return (
     <div className="wrap">
       <div className="phone">
         <div className="main">
-          <div className="iconCircle">
+          <div className="cameraicon">
             <svg viewBox="0 0 24 24" className="camera">
               <path d="M9.5 6h5l1 2H19a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h3l1-2zM12 17a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></path>
             </svg>
@@ -37,7 +36,6 @@ export default function App() {
 
           {fileName && <div className="fileHint">{fileName}</div>}
 
-          <button className="more" onClick={more}>더보기</button>
         </div>
       </div>
     </div>
