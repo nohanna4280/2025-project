@@ -1,5 +1,5 @@
 {
-  "name": "manhole",
+  "name": "맨홀 관리 시스템",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
